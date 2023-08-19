@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,12 +34,91 @@
           </div>
     </header>
      <!-- 1st section end -->
-    <main>
-         <!-- 2nd section start -->
-         <!-- 2nd section end -->
+   <section class="flex w-[9o%] aline-cnter justify-around  gap-8 ">
+    <main >
+        
+        <!-- 2nd section start -->
+     <section class="grid grid-cols-3  mt-[40px ] gap-3 " >
+          
+     <!--1st card  -->
+     <div class="card  bg-green-100 shadow-xl " onclick="cards()">
+        <div class="bg-[#1111110D] h-[200px]   ">
+         <figure><img src="images/prod1.png" class="mt-[20px] mb-[8px] h-[140px] w-[120px]  " /></figure>
+        </div>
+         <div class="card-body">
+           <h2 class="card-title flex justify-center text-2xl text-black text-3xl">Spoons Holder</h2>
+           <div class="rating rating-lg justify-center mt-4">
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" checked />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+           </div>
+           <div class="card-actions justify-center mt-4">
+             <h3 class="text-[28px]">39.00 TK</h3>
+           </div>
+         </div>
+       </div>
+      <!--2nd card  -->
+      <div class="card  bg-green-100 shadow-xl" onclick="cards()">
+        <div class="bg-[#1111110D] h-[200px]   ">
+         <figure><img src="images/prod2.png" class="mt-[20px] mb-[8px] h-[140px] w-[120px]  " /></figure>
+        </div>
+         <div class="card-body">
+           <h2 class="card-title flex justify-center text-2xl text-black text-3xl">Cutting Board</h2>
+           <div class="rating rating-lg justify-center mt-4">
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" checked />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+           </div>
+           <div class="card-actions justify-center mt-4">
+             <h3 class="text-[28px]">25.00 TK</h3>
+           </div>
+         </div>
+       </div>
+      <!--3rd card  -->
+      <div class="card  bg-green-100 shadow-xl" onclick="cards()">
+        <div class="bg-[#1111110D] h-[200px]   ">
+         <figure><img src="images/prod3.png" class="mt-[20px] mb-[8px] h-[140px] w-[120px]  " /></figure>
+        </div>
+         <div class="card-body">
+           <h2 class="card-title flex justify-center text-2xl text-black text-3xl">Home Cooker</h2>
+           <div class="rating rating-lg justify-center mt-4">
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" checked />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+             <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+           </div>
+           <div class="card-actions justify-center mt-4">
+             <h3 class="text-[28px]">49.00 TK</h3>
+           </div>
+         </div>
+       </div>
 
+     </section>
+      <!-- 2nd section end -->
 
-    </main>
+  
+</main>
+<footer class="bg-orange-400 h-[416px] w-[340px]">
+ <div>
+    <h2>Have coupon?</h2>
+    <div class="flex">
+      <div>
+        <input class="h-[30px]" type="text">
+      </div>
+      <div>
+        <button type="button">Apply</button>
+      </div>
+    </div>
+ </div>
+</footer>
+   </section>
+    
+    
     <script src="sale.js"></script>
 </body>
 </html>
