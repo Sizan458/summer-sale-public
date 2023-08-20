@@ -18,13 +18,13 @@
 <body>
     <!-- 1st section start -->
     <header>
-        <div class="hero min-h-screen bg-[#F9F6E2]">
+        <div class="hero min-h-screen bg-[#F9F6E2]  ">
             <div class="hero-content flex-col lg:flex-row-reverse ">
-              <img src="images/Summer 1.png" class="  h-[680px]  w-[680px] " />
+              <img src="images/Summer 1.png" class=" h-[330px]  lg:h-[680px]  lg:w-[680px] md:h-[500px] md:w-[500px]" />
               <div>
-                <p class="text-black text-3xl ">---SALE FEVER---</p>
-                <h1 class="text-5xl font-bold text-black mt-[20px]">Purchase TK 200 or above & get 20% off</h1>
-                <div class="flex mt-[60px] gap-3  "> 
+                <p class="text-black  text-2xl text-center md:text-2xl lg:text-xl xl:text-3xl">---SALE FEVER---</p>
+                <h1 class="  text-2xl ml-[15px] md:text-4xl xl:text-5xl font-bold text-black mt-[20px] lg:text-2xl lg:text-center ">Purchase TK 200 or above & get <span class="text-[#E527B2]">20% off</span> </h1>
+                <div class="flex mt-[60px] gap-3 xl:ml-[150px] md:ml-[30%] lg:ml-[1px] "> 
                     <p class="py-6  text-xl  text-black md:ml-[6px] ">Use Promo Code</p>
                     <div>
                         <button class="btn btn-active btn-secondary mt-[15px] text-white text-[18px]">SELL200</button></div>
@@ -34,11 +34,11 @@
           </div>
     </header>
      <!-- 1st section end -->
-   <section class="flex  aline-cnter justify-center mt-[30px] gap-8 ">
+   <section class="grid grid-cols-1 w-[95%] mx-auto justify-center mt-[30px] gap-3   md:grid-cols-2">
     <main >
         <h3 class="text-[40px] text-black mb-[30px]">Kitchenware</h3>
         <!-- 2nd section start -->
-     <section class="grid grid-cols-3  mt-[40px ] gap-3 " >
+     <section class="grid grid-cols-1  mt-[40px ] gap-3  md:grid-cols-2  lg:grid-cols-3" >
           
      <!--1st card  -->
      <div class="card  bg-green-100 shadow-xl " onclick="cards()">
@@ -92,7 +92,7 @@
              <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
              <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
            </div>
-           <div class="card-actions justify-center mt-4">
+           <div class="card-actions justify-center lg:mt-[50px]">
              <h3 class="text-[28px]">49.00 TK</h3>
            </div>
          </div>
@@ -101,7 +101,7 @@
      </section>
       <!-- 2nd section end -->
       <h3 class="text-[40px] text-black mt-[30px]">Sportswear</h3>
-      <section class="grid grid-cols-3 gap-3 mt-[30px]">
+      <section class="grid grid-cols-1  gap-3 mt-[30px] md:grid-cols-2 lg:grid-cols-3">
          <!-- 3rd section start -->
          <!--4th card  -->
       <div class="card  bg-green-100 shadow-xl" onclick="cards()">
@@ -141,7 +141,7 @@
            </div>
          </div>
        </div>
-       <!--3rd card  -->
+       <!--6th card  -->
       <div class="card  bg-green-100 shadow-xl" onclick="cards()">
         <div class="bg-[#1111110D] h-[200px]   ">
          <figure><img src="images/prod6.png" class="mt-[20px] mb-[8px] h-[140px] w-[120px]  " /></figure>
@@ -155,7 +155,7 @@
              <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
              <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
            </div>
-           <div class="card-actions justify-center mt-4">
+           <div class="card-actions justify-center lg:mt-[50px]">
              <h3 class="text-[28px]">159.00 TK</h3>
            </div>
          </div>
@@ -170,7 +170,7 @@
     <h class="text-[40px]">Have coupon?</h2>
     <div class="flex mt-1">
       <div>
-        <input class="h-[60px] w-[264px] text-center text-black text-[20px] outline-none rounded-lg" type="text" placeholder="Coupon code">
+        <input class="h-[60px] w-[110px] text-center text-black text-[20px] outline-none rounded-lg " type="text" placeholder="Coupon code">
       </div>
       <div>
         <button class=" btn btn-active btn-secondary text-[25px]  h-[56px]" type="button">Apply</button>
@@ -186,7 +186,7 @@
 
     </div>
     <div>
-        <button class=" btn btn-active btn-secondary text-[25px]  h-[56px] w-full mt-15px " type="button">Make Purchase</button> 
+        <button class=" btn btn-active btn-secondary text-[25px]  h-[56px] w-full mt-15px  mb-4" type="button">Make Purchase</button> 
     </div>
  </div>
 </footer>
