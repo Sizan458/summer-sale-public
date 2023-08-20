@@ -173,26 +173,38 @@
 </main>
 <footer class="bg-orange-100  px-10 ">
  <div>
-    <h class="text-[40px]">Have coupon?</h2>
-    <div class="flex mt-1">
+    <h class="text-[30px] md:text-[35px] lg:text-[40px]  xl:text-[50px] text-black">Have coupon?</h2>
+    <div class="flex mt-4  -ml-[5px]">
       <div>
-        <input class="h-[60px] w-[110px] text-center text-black text-[20px] outline-none rounded-lg " type="text" placeholder="Coupon code">
+        <input class="h-[50px] w-[150px] text-center text-black text-[20px]  outline-none rounded-lg lg:w-[290px] xl:w-[350px] xl:h-[55px]" type="text" placeholder="Coupon code">
       </div>
-      <div>
-        <button class=" btn btn-active btn-secondary text-[25px]  h-[56px]" type="button">Apply</button>
+      <div class="">
+        <button class=" btn btn-active btn-secondary text-[25px]  h-[45px]  text-white" type="button">Apply</button>
       </div>
     </div>
     <div class="h-[380px] mt-5 broder-2  bg-rose-200 ">
 
     </div>
     <div>
-       <p class="text-[35px] mt-[20px]">Total price:<span>00</span>Tk   </p> 
-       <p class="text-[35px] mt-[20px]">Discount:<span>00</span>Tk  </p>
-       <p class="text-[35px] mt-[20px]">Total:<span>00</span>Tk </p>
+       <p class="text-[27px] mt-[20px]  text-black lg:text-[35px]">Total price:<span>00</span>Tk   </p> 
+       <p class="text-[27px] mt-[8px]  text-black lg:text-[35px]">Discount:<span>00</span>Tk  </p>
+       <p class="text-[27px] mt-[8px]  text-black lg:text-[35px]">Total:<span>00</span>Tk </p>
 
     </div>
     <div>
-        <button class=" btn btn-active btn-secondary text-[25px]  h-[56px] w-full mt-15px  mb-4" type="button">Make Purchase</button> 
+        <!-- Open the modal using ID.showModal() method -->
+<button class="btn btn-active btn-secondary w-[70%]  text-[14px] text-white md:text-[17px] lg:text-[25px] mb-3 ml-[15%] xl:ml-[15%] xl:h-[40px]  lg:h-[30px] " onclick="my_modal_5.showModal()">Make Purchase</button>
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <form method="dialog" class="modal-box">
+    <img src="images/congo.png" class="ml-[35%] mt-2 h-[95px] md:ml-[40%]">
+    <p class=" text-center text-4xl text-black">Congratulations</p>
+    <p class="text-center text-xl text-[#11111180] mt-3">Your Purchase the product</p>
+    <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn btn-active btn-secondary justify-center w-[140px] mr-[30%] text-[17px] text-white  md:mr-[35%]">Go Home</button>
+    </div>
+  </form>
+</dialog>
     </div>
  </div>
 </footer>
