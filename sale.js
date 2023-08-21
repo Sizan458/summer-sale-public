@@ -35,13 +35,20 @@ if(total1>0){
 }
 //Cupon function
 document.getElementById('btn1').addEventListener('click', function(){
-  const discount =  total1*0.2;
-  const disCountPrice =  discount.toFixed(2);
-  const disCountONItem =document.getElementById('discount-price')
-  disCountONItem.innerText = disCountPrice
-  const  total2 =  document.getElementById('grand-price')
-    const grandTotal =  total1 -disCountPrice
-    total2.innerText = grandTotal
+  const input = document.getElementById('code')
+  if (input.value ==='SELL200'){
+    const discount =  total1*0.2;
+    const disCountPrice =  discount.toFixed(2);
+    const disCountONItem =document.getElementById('discount-price')
+    disCountONItem.innerText = disCountPrice
+    const  total2 =  document.getElementById('grand-price')
+      const grandTotal =  total1 -disCountPrice
+      total2.innerText = grandTotal
+
+  }else{
+    return 
+  }
+  
 
 })
 
@@ -52,6 +59,6 @@ document.getElementById('btn1').addEventListener('click', function(){
     
     
     
- 
+    
 
     
